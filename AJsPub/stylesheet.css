@@ -1,0 +1,164 @@
+html {
+  background-image: url("images/planks.jpg")
+}
+
+p, h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/**************/
+/*** header ***/
+/**************/
+
+header {
+  background-color: #E6E6D6;
+  border-bottom: 2px rgb(108,92,81) solid;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  width: 1200px;
+  overflow: auto;
+}
+
+#logo {
+  float: left;
+  padding-left: 30px;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #386C54;
+}
+
+#socialmedia {
+  float: right;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Nav Items */
+nav li {
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  color: #E6E6D6;
+  padding: 5px 30px 5px 30px;
+  border: 1px black dotted;
+  background-color: #9ECDB7;
+
+}
+
+/************/
+/*** body ***/
+/************/
+
+body {
+  background-color: #E6E6D6;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  width: 1200px;
+  border: 2px rgb(108,92,81) solid;
+  padding: 20px;
+}
+
+.maindiv{
+  overflow: auto;
+}
+
+#pubimage {
+  width: 450px;
+  float: right;
+  padding: 5px;
+}
+
+#hamburgerimage {
+  width: 350px;
+  padding: 5px;
+  margin-right: 10px;
+  float: left;
+}
+
+#gamesimage {
+  width: 450px;
+  float: right;
+  padding: 10px;
+}
+
+h2.food, p.food, h2.drinks, p.drinks {
+  text-align: center;
+}
+
+img.food, img.drinks {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#orderfood li {
+  list-style-type: none;
+}
+
+#formforfood {
+  float: right;
+  font-family: 'Oswald', sans-serif;
+}
+
+.combos {
+  display: inline-block;
+  width: 390px;
+}
+
+/**************/
+/*** footer ***/
+/**************/
+
+footer {
+  background-color: #E6E6D6;
+  border-top: 2px rgb(108,92,81) solid;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  width: 1200px;
+  overflow: auto;
+  height: 250px;
+}
+
+#footerleft {
+  float: left;
+  text-align: center;
+  padding-left: 30px;
+
+}
+
+#footerright {
+  float: right;
+  text-align: left;
+  padding-right: 40px;
+}
+
+#footercenter {
+  text-align: center;
+}
+
+#fmenu li{
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  color: #E6E6D6;
+  padding: 5px 30px 5px 30px;
+  border: 1px black dotted;
+  background-color: #9ECDB7;
+}
+
+#address{
+  list-style-type: none;
+
+}
